@@ -1,0 +1,32 @@
+Algoritmo Ejercicio10
+	
+	suma = 0
+	sumapequeña = 0
+	total = 1000
+	cantidad6 = 0
+	
+	Hacer
+		
+		Escribir "Ingrese un numero"
+		Leer num
+		
+		Si num mod 6 == 0 Entonces
+			
+			cantidad6 = cantidad6 + 1
+			
+		FinSi
+		
+		Si num >= 1 y num <= 10 
+			
+			sumapequeña = sumapequeña + num
+			
+		FinSi
+		
+		suma = suma + num
+		
+	Hasta Que suma >= total
+	
+	Escribir "La cantidad de numeros multiplos de 6 es: " cantidad6
+	Escribir "La suma de los numeros comprendidos entre 1 y 10 es: " sumapequeña
+	
+FinAlgoritmo
